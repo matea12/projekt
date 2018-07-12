@@ -1,0 +1,64 @@
+{
+  "0": {
+      "nazivKviza":"Američka povijest",
+      "ukupnoPitanja": 3,
+      "tocnoOdgovorenih": 0,
+      "netocnoOdgovorenih": 0,
+      "brojIgranja": 0,
+      "uspjesnost": 0,
+      "pitanja": [
+        {"pitanje": "Tko je bio prvi predsijednik?",
+         "A": "Abraham Lincoln",
+         "B": "George Washington",
+         "C": "Barrack Obama",
+         "D": "Donald Trump",
+         "T": "George Washington"
+        },
+        {"pitanje": "Tko je bio prvi čovijek koji je sletio na Mjesec?",
+         "A": "Buzz Lightman",
+         "B": "Yuri Gagarin",
+         "C": "Neil Armstrong",
+         "D": "Donald Trump",
+         "T": "Neil Armstrong"
+        },
+        {"pitanje": "Prvi proizvođač auta?",
+         "A": "Braća Wright",
+         "B": "Guttenberg",
+         "C": "Henry Ford",
+         "D": "Porche",
+         "T": "Henry Ford"
+        }
+     ]
+  },
+  "1": {
+      "nazivKviza":"Životinje",
+      "ukupnoPitanja": 3,
+      "tocnoOdgovorenih": 0,
+      "netocnoOdgovorenih": 0,
+      "brojIgranja": 0,
+      "uspjesnost": 0,
+      "pitanja": [
+        {"pitanje": "Najveća životinja na svijetu ?",
+         "A": "Slon",
+         "B": "Tigar",
+         "C": "Kit",
+         "D": "Medvijed",
+         "T": "Kit"
+        },
+        {"pitanje": "Najbrža životinja ?",
+         "A": "Gepar",
+         "B": "Lav",
+         "C": "Tigar",
+         "D": "Puma",
+         "T": "Gepar"
+        },
+        {"pitanje": "Najduže živuća životinja ?",
+         "A": "Rak",
+         "B": "Galapagoska kornjača",
+         "C": "Jastog",
+         "D": "Majmun",
+         "T": "Jastog"
+        }
+     ]
+  }
+}
