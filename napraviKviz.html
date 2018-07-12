@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App | Napravi Kviz</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/napraviKviz.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="./js/napraviKviz.js"></script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 poravnanjeCenter">
+                <label class="col-form-label" for="inputDefault" id="pitanjeID">Pitanje</label>
+                  <input type="text" class="form-control pitanje" placeholder="Unesite pitanje" id="inputDefault">
+            </div>
+        </div><br><br><br><br>
+        <div class="row">
+            <div class="col-lg-6 napraviKviz bg-primary">
+                  <label class="col-form-label text-white" for="inputDefault">Odgovor A:</label>
+                  <input type="text" class="form-control odgovor" placeholder="Unesite odgovor pod A" id="inputDefault">
+            </div>
+            <div class="col-lg-6 napraviKviz bg-warning">
+
+                <label class="col-form-label text-white" for="inputDefault">Odgovor B:</label>
+                  <input type="text" class="form-control odgovor" placeholder="Unesite odgovor pod B" id="inputDefault">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 napraviKviz bg-success">
+                  <label class="col-form-label text-white" for="inputDefault">Odgovor C:</label>
+                  <input type="text" class="form-control odgovor" placeholder="Unesite odgovor pod C" id="inputDefault">
+            </div>
+            <div class="col-lg-6 napraviKviz bg-info">
+
+                <label class="col-form-label text-white" for="inputDefault">Odgovor D:</label>
+                  <input type="text" class="form-control odgovor" placeholder="Unesite odgovor pod D" id="inputDefault">
+
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="row">
+          <div class="col-lg-12">
+           <center> <div class="tocan-odgovor">
+              <label for="exampleSelect1" id="tocanID">Tocan odgovor je pod: </label>
+                    <select class="form-control" id="izborOdgovora">
+                      <option>A</option>
+                      <option>B</option>
+                      <option>C</option>
+                      <option>D</option>
+                    </select>
+            </div></center>
+          </div>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="row">
+          <div class="col-lg-12 dalje">
+            <div class="daljeButtons">
+                <button type="button" class="btn btn-primary dodajPitanje">Dodaj pitanje</button>
+                <button type="submit" class="btn btn-danger zavrsiKviz">Završi kviz</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <img src="back.jpg">
+</body>
+</html>

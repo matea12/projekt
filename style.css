@@ -1,0 +1,50 @@
+html, body {
+    height:100%;
+    margin:0px;
+}
+
+.container-fluid{
+    min-height: 50%;
+}
+
+.redak{
+    height: 50vh !important;
+}
+
+.napraviKviz, .igrajKviz{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    text-align: center;
+}
+
+.napraviKviz a, .igrajKviz a{
+    display: block;
+    margin-top: 20vh;
+    text-decoration: none;
+}
+
+.napraviKviz{
+    
+   
+}
+
+.igrajKviz{
+    position: absolute;
+    background-color: rgb(255,255,255,0.5);
+}
+
+img{
+    position:fixed;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    z-index:-10;
+}
+
+@media only screen and (max-width: 600px) {
+    .napraviKviz, .igrajKviz{
+        font-family: 'Lobster', cursive;
+        font-size: 3em;
+        text-align: center;
+    }
+}

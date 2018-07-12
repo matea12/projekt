@@ -1,0 +1,44 @@
+.poravnanjeCenter{
+    text-align: center;
+}
+
+.container-fluid{
+    height: auto !important;
+    min-height: 0 !important;
+    margin-bottom: 8%;
+    margin-top: 8%;
+    background-color: rgb(255,255,255,0.5);
+}
+
+.karta{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.karta:hover{
+    background-color: #FF9800;
+}
+
+.container{
+	background-color: rgb(255,255,255,0.5);
+	margin-top:8%;
+}
+
+.row{
+	font-size: 2em;
+	font-family: 'Lobster', cursive;
+}
+
+.odgovor{
+    border-radius:4px;
+    width: 500px;
+    height:50px;
+
+    font-size:.7em;
+    font-family: 'Lobster', cursive;
+    text-align:left;
+}
+
+.col-lg-6{
+	display:inline-block;
+}
